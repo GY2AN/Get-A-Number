@@ -21,7 +21,7 @@
 
 .last-container{
     background-color: skyblue;
-    height: 50vh;
+    height: 80vh;
 }
 
 .last-para{
@@ -54,9 +54,13 @@ button{
     border-radius: 3px;
 }
 
-#blank_para{
+.blank-para{
     font-size: 20px;
     text-align: center;
     padding: 8px;
+    width: 200px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
 }
 
