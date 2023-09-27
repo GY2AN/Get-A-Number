@@ -1,13 +1,13 @@
 let randomStorage = Math.ceil(Math.random() * 100);
 let checkValue = document.getElementById("inputValue");
-let result = document.getElementById("blank_para");
+let result = document.getElementById("blankPara");
 
 function check(){
     let guessedNum = parseInt(checkValue.value);
-    if(randomStorage > guessedNum){
+    if(randomStorage < guessedNum){
         result.textContent="Its too high try something lower";
         result.style.backgroundColor = "blue";
-    } else if(randomStorage < guessedNum){
+    } else if(randomStorage > guessedNum){
         result.textContent = "Its too low try something higher";
         result.style.backgroundColor = "red";
     } else if (randomStorage === guessedNum){
