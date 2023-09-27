@@ -19,5 +19,3 @@ function check(){
 
     }
 }
-
-console.log(randomStorage);
